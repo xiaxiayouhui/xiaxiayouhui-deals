@@ -1,0 +1,65 @@
+# 极简 Skill 仓库 .gitignore
+# 我们用白名单思路：除了下面 8 个核心文件，其余一律忽略
+
+# === 强制忽略：凭证 / 敏感 ===
+*.credentials
+.env
+.env.*
+secrets/
+docs/credentials*.md
+docs/security_incident_*.md
+docs/forensics_*.md
+
+# === 强制忽略：源代码（不该上 GitHub）===
+src/
+web/
+configs/
+config/
+
+# === 强制忽略：脚本（含旧凭证）===
+scripts/
+backups/
+
+# === 强制忽略：内部文档 ===
+docs/
+memory/
+output/
+screenshots/
+.playwright-mcp/
+
+# === 强制忽略：Agent 元数据 ===
+AGENTS.md
+SOUL.md
+IDENTITY.md
+USER.md
+TOOLS.md
+MEMORY.md
+HEARTBEAT.md
+BOOTSTRAP.md
+.openclaw/
+.workbuddy/
+
+# === 强制忽略：通用 ===
+__pycache__/
+*.pyc
+*.pyo
+venv*/
+.venv/
+*.egg-info/
+.pytest_cache/
+node_modules/
+package-lock.json
+.DS_Store
+*.swp
+*.bak
+*.tmp
+*.swo
+
+# === 强制忽略：备份 ===
+.git.OLD/
+.git.bak/
+*.tar
+*.zip
+
+# === 强制忽略：robots.txt 是部署文件，不上发布仓库 ===
+robots.txt

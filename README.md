@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://xiaxiayouhui.xyz/skill-cover.png" alt="虾虾优惠 Skill" width="720">
+</p>
+
 # 虾虾优惠 · 全网比价 + 神券助手
 
 > 🛒 **price-compare · coupon-finder · shopping-deals**

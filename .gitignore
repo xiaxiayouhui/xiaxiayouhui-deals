@@ -55,6 +55,10 @@ package-lock.json
 *.tmp
 *.swo
 
+# === 强制忽略：发布文件夹（临时生成）===
+publish/
+clawhub-upload/
+
 # === 强制忽略：备份 ===
 .git.OLD/
 .git.bak/

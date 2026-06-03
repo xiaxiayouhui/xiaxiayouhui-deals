@@ -8,7 +8,7 @@
 > 输入商品名 → 跨拼多多 / 京东 / 淘宝 / 苏宁 / 唯品会 / 抖音 6 大电商比价 + 找隐藏券 + 今日好价 + 本地生活优惠
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Version](https://img.shields.io/badge/version-1.6.1-green)
+![Version](https://img.shields.io/badge/version-1.6.2-green)
 ![Platforms](https://img.shields.io/badge/平台-6电商+本地生活-orange)
 ![Status](https://img.shields.io/badge/状态-stable-brightgreen)
 ![Free](https://img.shields.io/badge/价格-永久免费-success)
